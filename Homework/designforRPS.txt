@@ -1,0 +1,18 @@
+The RockPaperScissors class has two variables, using scanner to input numbers for  int userChoice and will store the user's choice between Rock, Paper or Scissors resulting 
+with an int and store the user's answer when prompted to enter a choice.
+Start program with a menu and user entering their choice.
+Will show user their choice
+Display the results.
+
+The Game class (contructor and polymorphism)
+The constructor has one parameter which is the user choice of rock, paper, or scissors and store it in choice privately.
+getChoice method to use to use the private choice elsewhere.
+Using static polymorphism for displays.
+
+The Computer class (inheritance)
+The Computer class is a subclass to the Game class
+One private int variable call randoms. Storing the random number created in the random
+method.
+random int method will generate a random number.
+One void display method. Using random's variable with getChoice method from The Game class
+to get the results of the game.
