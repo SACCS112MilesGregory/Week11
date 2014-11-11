@@ -1,8 +1,11 @@
-The RockPaperScissors class has two variables, using scanner to input numbers for  int userChoice and will store the user's choice between Rock, Paper or Scissors resulting 
-with an int and store the user's answer when prompted to enter a choice.
+The RockPaperScissors class(main) has two variables, using scanner to input numbers for 
+int userChoice and will store the user's choice between Rock, Paper or Scissors.
+result is an int and will store the user's answer when asked if they want to see 
+their choice.
 Start program with a menu and user entering their choice.
-Will show user their choice
-Display the results.
+Will ask user if they want to see ther choice. Using if else statements to
+appropriately use the correct method.
+Ending with displaying the results.
 
 The Game class (contructor and polymorphism)
 The constructor has one parameter which is the user choice of rock, paper, or scissors and store it in choice privately.
