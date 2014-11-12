@@ -15,6 +15,7 @@ public class Game
 		return getChoice();
 	}
 	
+	// please explain the purpose of this method
 	public void PolymorphismEnd()
 	{
 		System.out.println("...");
