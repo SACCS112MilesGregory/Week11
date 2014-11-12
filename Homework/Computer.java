@@ -1,6 +1,7 @@
 package Homework;
 
 public class Computer extends Game
+// Desc
 {
 	private int randoms = generator();
 	
