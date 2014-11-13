@@ -1,6 +1,7 @@
 package Homework;
 
 public class Game 
+// Missing Class definition
 {
 	int user;
 	int num;
@@ -12,6 +13,7 @@ public class Game
 	}
 	
 	public int getPlay()
+	// Missing Method definition
 	{
 		return getChoice();
 	}
