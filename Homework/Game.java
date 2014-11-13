@@ -15,12 +15,12 @@ public class Game
 		return getChoice();
 	}
 	
-	public void PolymorphismEnd()
+	public void PolymorphismEnd() // superclass object to be called by subclass
 	{
 		System.out.println("...");
 	}
 	
-	public void Value(int num)
+	public void Value(int num) // superclass object to be called by subclass
 	{
 		if(num == 1)
 			num = 1;
