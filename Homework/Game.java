@@ -5,6 +5,7 @@ public class Game
 	int user;
 	int num;
 	
+	// constructor
 	public Game(int num)
 	{
 		setChoice(num);

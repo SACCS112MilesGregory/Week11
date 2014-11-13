@@ -30,8 +30,9 @@ public class RockPaperScissors
 		}
 		else if(result == 2)
 		{
-			end.PolymorphismEnd(); // call Game class' PolymorphismEnd object with subclass
+			end.PolymorphismEnd(); // call Game class' PolymorphismEnd object with 
+			                       // subclass variable
 	}
-	end.Display();
-	} // end method main()
-} // end class RockPaperScissors
+	end.Display(); // call subclass object with subclass variable.
+	}
+}

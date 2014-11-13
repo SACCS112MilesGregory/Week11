@@ -2,6 +2,8 @@ package Homework;
 
 public class Computer extends Game
 {
+	// A private int variable used to store the random
+	// numbers created by generator method.
 	private int randoms = generator();
 	
 	public Computer(int user)
