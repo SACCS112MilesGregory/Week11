@@ -14,7 +14,7 @@ public class RockPaperScissors
 		
 		System.out.println("Rock, Paper Scissors!\n" +
 		"Please enter your choice.\n" + "Rock = 1, Paper = 2" +
-				"and Scissors = 3.");
+				"and Scissor = 3.");
 		userChoice = input.nextInt();
 		
 		// assign subclass reference to a subclass variable
