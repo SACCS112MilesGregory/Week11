@@ -39,4 +39,4 @@ public class Game
 	{
 		this.user = user;
 	}
-}
+} // end class Game
