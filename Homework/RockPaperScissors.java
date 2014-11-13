@@ -14,7 +14,7 @@ public class RockPaperScissors
 		
 		System.out.println("Rock, Paper Scissors!\n" +
 		"Please enter your choice.\n" + "Rock = 1, Paper = 2" +
-				"and Scissor = 3.");
+				"and Scissors = 3.");
 		userChoice = input.nextInt();
 		
 		// assign subclass reference to a subclass variable
@@ -33,5 +33,5 @@ public class RockPaperScissors
 			end.PolymorphismEnd(); // call Game class' PolymorphismEnd object with subclass
 	}
 	end.Display();
-	}
-}
+	} // end method main()
+} // end class RockPaperScissors
