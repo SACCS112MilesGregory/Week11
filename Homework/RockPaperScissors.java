@@ -25,14 +25,6 @@ public class RockPaperScissors
 		result = input.nextInt();
 		
 		if(result == 1)
-		{
-			end.Value(userChoice); // call Game class' Value object with subclass
-		}
-		else if(result == 2)
-		{
-			end.PolymorphismEnd(); // call Game class' PolymorphismEnd object with 
-			                       // subclass variable
-	}
-	end.Display(); // call subclass object with subclass variable.
+			end.Display(); // call subclass object with subclass variable.
 	}
 }
